@@ -21,6 +21,7 @@ from bacchosApp.views import renderTemplate1
 from bacchosApp.views import renderTemplate2
 from bacchosApp.views import infoUsuario
 from bacchosApp.views import plantilla
+from bacchosApp.views import index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("saludo/", views.display),
@@ -29,5 +30,6 @@ urlpatterns = [
     path('render2/', renderTemplate2),
     path('info/', infoUsuario),
     path('plantilla/',plantilla),
+    path('index/',index ),
 ]
 

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{%static 'css/style1.css'%}">
 </head>
 <body>
     <h1>Informacion del usuario</h1>
+    <img class="cala" src="{%static 'image/calabaza.jpg'%}">
     <li>ID: {{Id}}</li>
     <li>NOMBRE: {{Nombre}}</li>
     <li>Email: {{Email}}</li>

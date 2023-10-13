@@ -27,3 +27,6 @@ def infoUsuario(request):
 
 def plantilla(request):
     return render(request, 'bacchosApp/plantilla.html')
+
+def index(request):
+    return render(request,'bacchosApp/index.html')
